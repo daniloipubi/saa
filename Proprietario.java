@@ -4,29 +4,29 @@ private String nome;
 private boolean companhiaAerea;
 
 
-public Proprietario(String name, boolean ehCompanhia){
+public Proprietario(String nome, boolean status){
 
-	this.nome = name;
-	airCompany = ehCompanhia;
+	this.nome = nome;
+	this.companhiaAerea = status;
 
 }
 
 
 public void setProprietario(String algumNome){
 
-	nome = algumNome;
+	name = algumNome;
 }
 
 
 public String getProprietario(void){
 	
-	return nome;
+	return name;
 }
 
 
 public boolean ehCompanhiaAerea(){
 
-	return companhiaAerea;
+	return true;
 }
 
 
