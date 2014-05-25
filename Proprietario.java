@@ -24,9 +24,9 @@ public String getProprietario(void){
 }
 
 
-public boolean isAirCompany(){
+public boolean ehCompanhiaAerea(){
 
-	return airCompany;
+	return companhiaAerea;
 }
 
 
