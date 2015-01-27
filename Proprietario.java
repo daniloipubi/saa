@@ -1,13 +1,13 @@
 class Proprietario{
 
 private String nome;
-private boolean companhiaAerea;
+private boolean ehCompanhiaAerea;
 
 
-public Proprietario(String nome, boolean status){
+public Proprietario(String nome, boolean statusEhCompanhia){
 
 	this.nome = nome;
-	this.companhiaAerea = status;
+	this.ehCompanhiaAerea = statusEhCompanhia;
 
 }
 
@@ -26,7 +26,7 @@ public String getProprietario(void){
 
 public boolean ehCompanhiaAerea(){
 
-	return true;
+	return ehCompanhiaAerea;
 }
 
 
